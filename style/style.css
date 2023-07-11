@@ -1,0 +1,10 @@
+/* button-shop-now */
+.button-shop-now{
+    background-color: #e55473;
+    border-radius: 2px;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 5px ;
+    color: #fff;
+}
