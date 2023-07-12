@@ -1,33 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 /* nav related style */
-.btn-primary{
-    background-color: #e55473;
-    border-radius: 10px;
-    border-color: #e55473;
-    font-style: normal;
-    font-size: 15px;
-    font-weight: 800;
-    padding: 10px 5px;
-    color: white;
-}
-nav{
-    margin: 0px 200px;
-    height: 500px;
-
-}
 .header{
-    background-color:#daa9b4b2;
-    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding-top: 50px  ;
+    
+    
 }
-.banner{
-    padding: 70px 30px 70px 30px ;
-    align-items: center;
+.banner-theme{
+    width: 1440px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-}
-.banner-photo{
-    align-content: flex-end;
-}
+    justify-content: space-between;
+    align-items: center;
 
+}
+.banner-title{
+    color: #272727;
+    font-size: 60px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #E55473;
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    margin-top: 15px;
+
+
+}
+.image-area img{
+    width: 80%;
+    
+}
 /* Featured-flower style start  */
 .featured-flower{
     display: inline;
@@ -94,127 +115,127 @@ background: rgba(71, 125, 17, 0.15);
 /* delivery section style  */
 
 /* hot deal section style  */
-.flower4{
-    width: 318px;
-    height: 420px;
+.hot-deal{
+    margin-top: 100px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-containers{
+    display:flex;
+    width: 1440px;
+    border-radius: 8px;
+    align-items: center;
+
 }
 .hot-deal-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 1922px;
-height: 620px;
-flex-shrink: 0;
-border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
 }
 .hot-deal-title{
+    font-size: 40px;
     color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-align-items: center;
+    margin-bottom: 15px;
+    font-family: Lato;
 }
-.hot-deal-discription{
-    display: flex;
-width: 594px;
-flex-direction: column;
-flex-shrink: 0;
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
 }
-.btn-signup{
+.sign-up{
+    border-radius: 8px;
+    background: #E55473;
     display: inline-flex;
-padding: 20px 43px;
-gap: 10px;
-border-radius: 8px;
-background: #E55473;
-color: white;
-border: 394px 11664px 162px 603px;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
 }
+
 .text12{
     color: #E55473;
 }
-/* instagram style start  */
-.instagram-banner{
-    align-items: center;
-    display: inline;
-    justify-content: space-around;    
+/* media style start  */
+.media{
+    margin-top: 100px;
 }
-.ig-title{
-    color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-.ig-discription{
-    display: flex;
-width: 594px;
-flex-direction: column;
-flex-shrink: 0;
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-}
-/* background image style */
-
-.back-img-banner{
-    align-items: center;
-    background-image: url(./../flower-shop-assignment/Rectangle\ 9.png);
-    background-repeat: no-repeat;
+.media-container{
     width: 1440px;
-height: 449px;
-flex-shrink: 0;
-border-radius: 8px;
-
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
 }
-.back-img-title{
+.media-title{
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-size: 40px;
+    margin-bottom: 15px;
 }
-.back-img-discription{
+.media-description{
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.media-flower{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+/* background image style */
+.subscribe{
+    margin-top: 100px;
+}
+.subscribe-container{
+    width: 1440px;
+    background:url("./../flower-shop-assignment/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.subscribe-title{
+    color: #272727;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.subscribe-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.subscribe-container input{ 
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 45%;
 
 }
-.input-type-back{
-    width: 350px;
-height: 30px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
-text-align: center;
+
+/* footer style  */
+
+.footer{
+    margin-top: 100px;
 }
-.subscribe-btn{
-    border-radius: 8px;
-background: #E55473;
-width: 150px;
-height: 35px;
-flex-shrink: 0;
-text-align: center;
+.footer-container{
+    background-color: #111010;
+    text-align: center;
+    padding: 100px 0;
 }
-/* footer  */
+.footer-title{
+    font-size: 48px;
+    color: white;
+    margin-bottom: 15px;
+}
+.footer-description{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 15px;
+}
+.footer-ending{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
